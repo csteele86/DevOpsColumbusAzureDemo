@@ -2,12 +2,9 @@
 This is simply a demo repository that contains everything necessary for speaking at the DevOps Columbus user group. You can find the presentation [here](https://drive.google.com/file/d/0B2eU0z_wEI6HSlRBLW95SlZOaXM/view?usp=sharing).
 
 ### Prerequisites
-* Visual Studio 2017 (PC preferrable; more built-in features for free)
-  * https://www.visualstudio.com/downloads/
-* Azure account with subscription setup
-  * https://azure.microsoft.com/en-us/
-* Install Azure CLI 2.0 (PC or Mac is fine)
-  * https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) (PC preferrable; more built-in features for free)
+* [Azure account with subscription setup](https://azure.microsoft.com/en-us/)
+* [Install Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) (PC or Mac is fine)
 
 ### Steps
 1. Create new solution and project
