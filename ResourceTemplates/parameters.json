@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appService_DevOpsWebAppDemo20170927091300_name": {
+            "value": "DevOpsWebAppDemo20170927091300"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_location": {
+            "value": "East US"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_name": {
+            "value": "AzureDemo20170926104335Plan"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_resourceGroup": {
+            "value": "DevOpsColumbus20170926104335Group"
+        }
+    }
+}

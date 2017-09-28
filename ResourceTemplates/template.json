@@ -1,0 +1,35 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appService_DevOpsWebAppDemo20170927091300_name": {
+            "type": "String"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_location": {
+            "type": "String"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_name": {
+            "type": "String"
+        },
+        "appServicePlan_AzureDemo20170926104335Plan_resourceGroup": {
+            "type": "String"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Web/sites",
+            "kind": "WebApp",
+            "name": "[parameters('appService_DevOpsWebAppDemo20170927091300_name')]",
+            "apiVersion": "2015-08-01",
+            "location": "[parameters('appServicePlan_AzureDemo20170926104335Plan_location')]",
+            "tags": {
+                "[concat('hidden-related:', resourceId(parameters('appServicePlan_AzureDemo20170926104335Plan_resourceGroup'),'Microsoft.Web/serverfarms', parameters('appServicePlan_AzureDemo20170926104335Plan_name')))]": "empty"
+            },
+            "properties": {
+                "name": "[parameters('appService_DevOpsWebAppDemo20170927091300_name')]",
+                "serverFarmId": "[resourceId(parameters('appServicePlan_AzureDemo20170926104335Plan_resourceGroup'),'Microsoft.Web/serverfarms', parameters('appServicePlan_AzureDemo20170926104335Plan_name'))]",
+                "kind": "WebApp"
+            }
+        }
+    ]
+}
