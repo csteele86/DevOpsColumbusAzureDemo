@@ -29,15 +29,9 @@ This is simply a demo repository that contains everything necessary for speaking
     4. Run step ii and notice that the resource that was created is gone!
 
 ### Resources
-* Create and deploy to Azure via Visual Studio 2017 
-  * https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-* Enabling continuous deployment
-  * https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment
-* Visual Studio Team Services (VSTS) builds and releases
-  * https://docs.microsoft.com/en-us/vsts/build-release/actions/create-deploy-releases#create-from-build
-* Get existing resource template
-  * https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-export-template
-* Deploy resource template
-  * https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json&view=azure-cli-latest
-* Azure CLI command reference
-  * https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#Commands
+* [Create and deploy to Azure via Visual Studio 2017](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs) 
+* [Enabling continuous deployment](https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment) 
+* [Visual Studio Team Services (VSTS) builds and releases](https://docs.microsoft.com/en-us/vsts/build-release/actions/create-deploy-releases#create-from-build) 
+* [Get existing resource template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-export-template) 
+* [Deploy resource template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json&view=azure-cli-latest) 
+* [Azure CLI command reference](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#Commands) 
